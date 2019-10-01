@@ -1,0 +1,43 @@
+2019-02-28	11:09:56	loginit	32	[INFO]	The path of the log	C:\Users\juan.bueno\Desktop\INGENICO\PYTHON\Mock\src\PED_Initialization
+2019-02-28	11:09:56	loginit	33	[INFO]	The name of the file	.\LOGS\201902281109.LOG
+2019-02-28	11:09:56	initscript	44	[INFO]	The IP address	10.6.5.72
+2019-02-28	11:09:56	initscript	45	[INFO]	The PORT	4445
+2019-02-28	11:09:58	Definesecuence	37	[INFO]	Generic configuration has been loaded
+2019-02-28	11:10:06	listen	82	[INFO]	The socket has been opened successfully
+2019-02-28	11:10:06	listen	100	[INFO]	[RX]	PH2400578PDI040099777998220000X0000000#
+2019-02-28	11:11:47	NonKnownFrame	84	[INFO]	[TX]	PH2400095PDI040099169993960000LERR###000000#000000#######S#SBGENM
+------------------------|      MOCK CSACT      ||  28/02/2019 - 11:10  |------------------------
+ERROR EN LOS DATOS
+
+PETICION INCORRECTA
+
+
+
+
+
+
+
+
+2019-02-28	11:11:47	listen	137	[INFO]	Waiting for a new comunication
+2019-02-28	11:13:21	listen	82	[INFO]	The socket has been opened successfully
+2019-02-28	11:13:21	listen	100	[INFO]	[RX]	PH2400325PDI040099666990380000R9966699#8#18001CT09966699:PCI02:CRC0a00:TRC01:POL0000#S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000#000010#000010#000#0#978#ES1##6356295000000100085=18021000052100000EMV#002#V #01#000000012#906#000000##000000012#IP
+2019-02-28	11:13:23	pt_parseheader	126	[INFO]	Header of frame	PH2400325PDI040099666990380000
+2019-02-28	11:13:24	pt_typerequest	135	[INFO]	Type of Request	R
+2019-02-28	11:13:24	pt_businessID	146	[INFO]	Business ID	9966699
+2019-02-28	11:13:24	pt_typemachine	157	[INFO]	Type of machine	8
+2019-02-28	11:13:24	pt_idterminal	168	[INFO]	ID of the Terminal	18001CT09966699:PCI02:CRC0a00:TRC01:POL0000
+2019-02-28	11:13:24	pt_tableversion	179	[INFO]	Tables version	S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000
+2019-02-28	11:13:25	pt_lastNSM	190	[INFO]	Last NSM	000010
+2019-02-28	11:13:25	pt_operationNum	203	[INFO]	Operation number	000010
+2019-02-28	11:13:25	pt_offlinetrans	216	[INFO]	Offline Transaction	000
+2019-02-28	11:13:25	pt_operationmode	233	[INFO]	Operation mode	0 - Autonomous
+2019-02-28	11:13:25	pt_currency	245	[INFO]	Currency	978 - EUR
+2019-02-28	11:13:26	pt_lenguaje	257	[INFO]	Languaje	ES - Spanish
+2019-02-28	11:13:26	pt_typecard	269	[INFO]	TypeCard	1 - Swiped
+2019-02-28	11:13:27	pt_track1	275	[INFO]	Track1	
+2019-02-28	11:13:27	pt_track2	285	[INFO]	Track2	6356295000000100085=18021000052100000
+2019-02-28	11:13:27	pt_extradatacard	292	[INFO]	Card info	
+2019-02-28	11:13:27	pt_chipdata	300	[INFO]	Chip Data	EMV#00
+2019-02-28	11:13:31	pt_typepayment	313	[INFO]	Type of Payment	2
+2019-02-28	11:13:31	pt_operationcode	332	[INFO]	Operation Code	V  - Venta
+2019-02-28	11:13:31	pt_numberproducts	343	[INFO]	Number of products	01

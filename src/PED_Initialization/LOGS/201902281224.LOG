@@ -1,0 +1,66 @@
+2019-02-28	12:24:00	loginit	32	[INFO]	The path of the log	C:\Users\juan.bueno\Desktop\INGENICO\PYTHON\Mock\src\PED_Initialization
+2019-02-28	12:24:00	loginit	33	[INFO]	The name of the file	.\LOGS\201902281224.LOG
+2019-02-28	12:24:00	initscript	44	[INFO]	The IP address	10.6.5.72
+2019-02-28	12:24:00	initscript	45	[INFO]	The PORT	4445
+2019-02-28	12:24:02	Definesecuence	37	[INFO]	Generic configuration has been loaded
+2019-02-28	12:24:05	listen	82	[INFO]	The socket has been opened successfully
+2019-02-28	12:24:06	listen	100	[INFO]	[RX]	PH2400402PDI040099666994640000R9966699#8#18001CT09966699:PCI02:CRC0a00:TRC01:POL0000#S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000#000020#000013#000#0#978#ES2#B4907272011072841^CONTACTLESS10/PRUEBAS     ^2612201190570000000000895000000#4907272011072841=26122011905789500000DCC#00#2#VY#01#000000125#906#000000##000000125#IP
+2019-02-28	12:24:06	pt_parseheader	126	[INFO]	Header of frame	PH2400402PDI040099666994640000
+2019-02-28	12:24:06	pt_typerequest	135	[INFO]	Type of Request	R
+2019-02-28	12:24:06	pt_businessID	146	[INFO]	Business ID	9966699
+2019-02-28	12:24:06	pt_typemachine	157	[INFO]	Type of machine	8
+2019-02-28	12:24:06	pt_idterminal	168	[INFO]	ID of the Terminal	18001CT09966699:PCI02:CRC0a00:TRC01:POL0000
+2019-02-28	12:24:06	pt_tableversion	179	[INFO]	Tables version	S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000
+2019-02-28	12:24:06	pt_lastNSM	190	[INFO]	Last NSM	000020
+2019-02-28	12:24:06	pt_operationNum	203	[INFO]	Operation number	000013
+2019-02-28	12:24:06	pt_offlinetrans	216	[INFO]	Offline Transaction	000
+2019-02-28	12:24:06	pt_operationmode	233	[INFO]	Operation mode	0 - Autonomous
+2019-02-28	12:24:06	pt_currency	245	[INFO]	Currency	978 - EUR
+2019-02-28	12:24:06	pt_lenguaje	257	[INFO]	Languaje	ES - Spanish
+2019-02-28	12:24:06	pt_typecard	269	[INFO]	TypeCard	2 - EMV
+2019-02-28	12:24:06	pt_track1	275	[INFO]	Track1	B4907272011072841^CONTACTLESS10/PRUEBAS     ^2612201190570000000000895000000
+2019-02-28	12:24:06	pt_track2	285	[INFO]	Track2	4907272011072841=26122011905789500000
+2019-02-28	12:24:06	pt_extradatacard	292	[INFO]	Card info	
+2019-02-28	12:24:06	pt_chipdata	300	[INFO]	Chip Data	DCC#00#
+2019-02-28	12:24:06	pt_typepayment	313	[INFO]	Type of Payment	2
+2019-02-28	12:24:06	pt_operationcode	326	[ERROR]	Operation Code bad format:	VY
+2019-02-28	12:24:06	pt_numberproducts	343	[INFO]	Number of products	VY
+2019-02-28	12:24:06	pt_totalamount	354	[INFO]	Total Amount	01
+2019-02-28	12:24:06	pt_eurolpoint	362	[ERROR]	Euro Litres/Point bad format	000000125#
+2019-02-28	12:24:06	pt_giftprocode	375	[INFO]	Gift Product code	000000125
+2019-02-28	12:24:06	pt_unitprice	384	[ERROR]	Unit Price bad format	906
+2019-02-28	12:24:06	pt_quantitylitres	395	[ERROR]	Quantity Litres bad format:	906
+2019-02-28	12:24:06	pt_amount	405	[INFO]	Amount	906
+2019-02-28	12:24:21	loginit	32	[INFO]	The path of the log	C:\Users\juan.bueno\Desktop\INGENICO\PYTHON\Mock\src\PED_Initialization
+2019-02-28	12:24:21	loginit	33	[INFO]	The name of the file	.\LOGS\201902281224.LOG
+2019-02-28	12:24:21	initscript	44	[INFO]	The IP address	10.6.5.72
+2019-02-28	12:24:21	initscript	45	[INFO]	The PORT	4445
+2019-02-28	12:24:22	Definesecuence	37	[INFO]	Generic configuration has been loaded
+2019-02-28	12:24:22	listen	82	[INFO]	The socket has been opened successfully
+2019-02-28	12:24:23	listen	100	[INFO]	[RX]	PH2400402PDI040099666994640000R9966699#8#18001CT09966699:PCI02:CRC0a00:TRC01:POL0000#S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000#000020#000013#000#0#978#ES2#B4907272011072841^CONTACTLESS10/PRUEBAS     ^2612201190570000000000895000000#4907272011072841=26122011905789500000DCC#00#2#VY#01#000000125#906#000000##000000125#IP
+2019-02-28	12:24:27	pt_parseheader	126	[INFO]	Header of frame	PH2400402PDI040099666994640000
+2019-02-28	12:24:27	pt_typerequest	135	[INFO]	Type of Request	R
+2019-02-28	12:24:28	pt_businessID	146	[INFO]	Business ID	9966699
+2019-02-28	12:24:29	pt_typemachine	157	[INFO]	Type of machine	8
+2019-02-28	12:24:29	pt_idterminal	168	[INFO]	ID of the Terminal	18001CT09966699:PCI02:CRC0a00:TRC01:POL0000
+2019-02-28	12:24:30	pt_tableversion	179	[INFO]	Tables version	S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000
+2019-02-28	12:24:30	pt_lastNSM	190	[INFO]	Last NSM	000020
+2019-02-28	12:24:31	pt_operationNum	203	[INFO]	Operation number	000013
+2019-02-28	12:24:31	pt_offlinetrans	216	[INFO]	Offline Transaction	000
+2019-02-28	12:24:31	pt_operationmode	233	[INFO]	Operation mode	0 - Autonomous
+2019-02-28	12:24:31	pt_currency	245	[INFO]	Currency	978 - EUR
+2019-02-28	12:24:38	pt_lenguaje	257	[INFO]	Languaje	ES - Spanish
+2019-02-28	12:24:38	pt_typecard	269	[INFO]	TypeCard	2 - EMV
+2019-02-28	12:24:38	pt_track1	275	[INFO]	Track1	B4907272011072841^CONTACTLESS10/PRUEBAS     ^2612201190570000000000895000000
+2019-02-28	12:24:38	pt_track2	285	[INFO]	Track2	4907272011072841=26122011905789500000
+2019-02-28	12:24:38	pt_extradatacard	292	[INFO]	Card info	
+2019-02-28	12:24:38	pt_chipdata	300	[INFO]	Chip Data	DCC#00#
+2019-02-28	12:24:38	pt_typepayment	313	[INFO]	Type of Payment	2
+2019-02-28	12:24:38	pt_operationcode	326	[ERROR]	Operation Code bad format:	VY
+2019-02-28	12:24:38	pt_numberproducts	343	[INFO]	Number of products	VY
+2019-02-28	12:24:38	pt_totalamount	354	[INFO]	Total Amount	01
+2019-02-28	12:24:38	pt_eurolpoint	362	[ERROR]	Euro Litres/Point bad format	000000125#
+2019-02-28	12:24:38	pt_giftprocode	375	[INFO]	Gift Product code	000000125
+2019-02-28	12:24:38	pt_unitprice	384	[ERROR]	Unit Price bad format	906
+2019-02-28	12:24:38	pt_quantitylitres	395	[ERROR]	Quantity Litres bad format:	906
+2019-02-28	12:24:38	pt_amount	405	[INFO]	Amount	906

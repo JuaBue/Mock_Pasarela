@@ -1,0 +1,206 @@
+2019-02-28	11:22:46	loginit	32	[INFO]	The path of the log	C:\Users\juan.bueno\Desktop\INGENICO\PYTHON\Mock\src\PED_Initialization
+2019-02-28	11:22:46	loginit	33	[INFO]	The name of the file	.\LOGS\201902281122.LOG
+2019-02-28	11:22:46	initscript	44	[INFO]	The IP address	10.6.5.72
+2019-02-28	11:22:46	initscript	45	[INFO]	The PORT	4445
+2019-02-28	11:22:48	Definesecuence	37	[INFO]	Generic configuration has been loaded
+2019-02-28	11:22:53	listen	82	[INFO]	The socket has been opened successfully
+2019-02-28	11:22:53	listen	100	[INFO]	[RX]	PH2400325PDI040099666990920000R9966699#8#18001CT09966699:PCI02:CRC0a00:TRC01:POL0000#S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000#000010#000010#000#0#978#ES1##6356295000000100085=18021000052100000EMV#002#V #01#000000012#906#000000##000000012#IP
+2019-02-28	11:22:57	pt_parseheader	126	[INFO]	Header of frame	PH2400325PDI040099666990920000
+2019-02-28	11:22:57	pt_typerequest	135	[INFO]	Type of Request	R
+2019-02-28	11:22:57	pt_businessID	146	[INFO]	Business ID	9966699
+2019-02-28	11:22:57	pt_typemachine	157	[INFO]	Type of machine	8
+2019-02-28	11:22:57	pt_idterminal	168	[INFO]	ID of the Terminal	18001CT09966699:PCI02:CRC0a00:TRC01:POL0000
+2019-02-28	11:22:57	pt_tableversion	179	[INFO]	Tables version	S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000
+2019-02-28	11:22:57	pt_lastNSM	190	[INFO]	Last NSM	000010
+2019-02-28	11:22:57	pt_operationNum	203	[INFO]	Operation number	000010
+2019-02-28	11:22:57	pt_offlinetrans	216	[INFO]	Offline Transaction	000
+2019-02-28	11:22:57	pt_operationmode	233	[INFO]	Operation mode	0 - Autonomous
+2019-02-28	11:22:57	pt_currency	245	[INFO]	Currency	978 - EUR
+2019-02-28	11:22:57	pt_lenguaje	257	[INFO]	Languaje	ES - Spanish
+2019-02-28	11:22:57	pt_typecard	269	[INFO]	TypeCard	1 - Swiped
+2019-02-28	11:22:57	pt_track1	275	[INFO]	Track1	
+2019-02-28	11:22:57	pt_track2	285	[INFO]	Track2	6356295000000100085=18021000052100000
+2019-02-28	11:22:57	pt_extradatacard	292	[INFO]	Card info	
+2019-02-28	11:22:57	pt_chipdata	300	[INFO]	Chip Data	EMV#00
+2019-02-28	11:22:57	pt_typepayment	313	[INFO]	Type of Payment	2
+2019-02-28	11:22:57	pt_operationcode	332	[INFO]	Operation Code	V  - Venta
+2019-02-28	11:22:57	pt_numberproducts	343	[INFO]	Number of products	01
+2019-02-28	11:22:57	pt_totalamount	354	[INFO]	Total Amount	000000012
+2019-02-28	11:22:57	pt_eurolpoint	365	[INFO]	Euro Litres/Point	
+2019-02-28	11:22:57	pt_giftprocode	375	[INFO]	Gift Product code	906
+2019-02-28	11:22:57	pt_unitprice	387	[INFO]	Unit Price	000000
+2019-02-28	11:22:57	pt_quantitylitres	398	[INFO]	Quantity Litres	
+2019-02-28	11:22:57	pt_amount	405	[INFO]	Amount	000000012
+2019-02-28	11:22:57	pt_discountproduct	416	[INFO]	Discount Product	
+2019-02-28	11:22:57	pt_extradatablock	422	[INFO]	Extra Data Block	
+2019-02-28	11:22:57	pt_encryptionkey	430	[INFO]	Encryption key	
+2019-02-28	11:22:57	pt_communicationtype	441	[INFO]	Commmunication Type	IP
+2019-02-28	11:22:57	pt_commissionsblock	448	[INFO]	Commissions Block	
+2019-02-28	11:22:57	parseTrame	64	[INFO]	[TX]	PH2401937PDI040099169997620000LACP#98813#28022019112257#708346000011#000010#270195##0####S#NAMESO
+------------------------|      MOCK CSACT      ||  28/02/2019 - 11:22  |------------------------
+PRUEBAS CEPSA-Integrac. CIF: A 12345678
+
+BODYIM9916999-TERMINALES
+
+
+
+*************************        CEPSA         **  Porque TU vuelves   *************************         28/02/2019************************NUMERO DE OPER: 000010
+
+AUT: CEPSA
+
+AUTORIZ: 270195
+
+Tarj:***************3093************************
+
+PRDDTOLitros   P.Unid.   TotalGasoleo Extra
+
+ 00.00    0.000   0.12
+------------------------TOTAL:           0.12
+A PAGAR:         0.12
+************************IMTOTM*************************   Tus Puntos Al Dia  **                      ** ACUMULADOS:      570 ** TODOS TUS PUNTOS:    **            884.974   **1000 PTOS-DESC = 1 EUR*************************
+
+
+
+C#SBCUTMNAMESO
+
+PRUEBAS CEPSA-Integrac. CIF: A 12345678
+
+BODYIM9916999-HOOFDDORF
+
+
+
+*************************        CEPSA         **  Porque TU vuelves   *************************04-06-2018         10:27************************NUMERO DE OPER: 000011
+
+AUT: CEPSA
+
+AUTORIZ: 270195
+
+Tarj:***************3093************************
+
+PRDDTOLitros   P.Unid.   TotalGasoleo Extra
+
+ 10,00    1,000   10,00------------------------TOTAL:             10,00A PAGAR:           10,00************************IMTOTM*************************   Tus Puntos Al Dia  **                      ** ACUMULADOS:      570 ** TODOS TUS PUNTOS:    **            884.974   **1000 PTOS-DESC = 1 EUR*************************MPIEIO
+
+************************     MUCHAS GRACIAS     ************************
+
+
+
+708346000088243093#Q1##Q1##STAR#057##01509#1000#1000##LYT#1#171017#9345#209997009997003084180604102718009345#CEPSA#9997003084#999700#6#884974#1000#570##450#POS#ESTE ES MI CAMPO DE POS #123456789POS#ESTE ES MI CAMPO 2 DE POS #123456789ING#9916999#1806041025142223072282023721#190224#20180604102718
+2019-02-28	11:22:57	listen	137	[INFO]	Waiting for a new comunication
+2019-02-28	11:23:36	listen	82	[INFO]	The socket has been opened successfully
+2019-02-28	11:23:36	listen	100	[INFO]	[RX]	PH2400444PDI040099666990980000R9966699#8#18001CT09966699:PCI02:CRC0a00:TRC01:POL0000#S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000#000011#000011#000#0#978#ES2##5413330089010483=2512201084060352EMV#0249#688CD8B5C103AA18800212A5000F040000000000000000000000FF#02B958004103028000008000190228DCF89D8800724E0F048224A0000000041010#V #01#000000012#906#000000##000000012#IP
+2019-02-28	11:23:38	pt_parseheader	126	[INFO]	Header of frame	PH2400444PDI040099666990980000
+2019-02-28	11:23:38	pt_typerequest	135	[INFO]	Type of Request	R
+2019-02-28	11:23:38	pt_businessID	146	[INFO]	Business ID	9966699
+2019-02-28	11:23:38	pt_typemachine	157	[INFO]	Type of machine	8
+2019-02-28	11:23:38	pt_idterminal	168	[INFO]	ID of the Terminal	18001CT09966699:PCI02:CRC0a00:TRC01:POL0000
+2019-02-28	11:23:38	pt_tableversion	179	[INFO]	Tables version	S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000
+2019-02-28	11:23:38	pt_lastNSM	190	[INFO]	Last NSM	000011
+2019-02-28	11:23:38	pt_operationNum	203	[INFO]	Operation number	000011
+2019-02-28	11:23:38	pt_offlinetrans	216	[INFO]	Offline Transaction	000
+2019-02-28	11:23:38	pt_operationmode	233	[INFO]	Operation mode	0 - Autonomous
+2019-02-28	11:23:38	pt_currency	245	[INFO]	Currency	978 - EUR
+2019-02-28	11:23:38	pt_lenguaje	257	[INFO]	Languaje	ES - Spanish
+2019-02-28	11:23:38	pt_typecard	269	[INFO]	TypeCard	2 - EMV
+2019-02-28	11:23:38	pt_track1	275	[INFO]	Track1	
+2019-02-28	11:23:38	pt_track2	285	[INFO]	Track2	5413330089010483=2512201084060352
+2019-02-28	11:23:38	pt_extradatacard	292	[INFO]	Card info	
+2019-02-28	11:23:38	pt_chipdata	300	[INFO]	Chip Data	EMV#0249#688CD8B5C103AA18800212A5000F040000000000000000000000FF#02B958004103028000008000190228DCF89D8800724E0F048224A0000000041010
+2019-02-28	11:23:38	pt_typepayment	313	[INFO]	Type of Payment	
+2019-02-28	11:23:38	pt_operationcode	332	[INFO]	Operation Code	V  - Venta
+2019-02-28	11:23:38	pt_numberproducts	343	[INFO]	Number of products	01
+2019-02-28	11:23:38	pt_totalamount	354	[INFO]	Total Amount	000000012
+2019-02-28	11:23:38	pt_eurolpoint	365	[INFO]	Euro Litres/Point	
+2019-02-28	11:23:38	pt_giftprocode	375	[INFO]	Gift Product code	906
+2019-02-28	11:23:38	pt_unitprice	387	[INFO]	Unit Price	000000
+2019-02-28	11:23:38	pt_quantitylitres	398	[INFO]	Quantity Litres	
+2019-02-28	11:23:38	pt_amount	405	[INFO]	Amount	000000012
+2019-02-28	11:23:38	pt_discountproduct	416	[INFO]	Discount Product	
+2019-02-28	11:23:38	pt_extradatablock	422	[INFO]	Extra Data Block	
+2019-02-28	11:23:38	pt_encryptionkey	430	[INFO]	Encryption key	
+2019-02-28	11:23:38	pt_communicationtype	441	[INFO]	Commmunication Type	IP
+2019-02-28	11:23:38	pt_commissionsblock	448	[INFO]	Commissions Block	
+2019-02-28	11:23:38	parseTrame	64	[INFO]	[TX]	PH2401937PDI040099169997620000LACP#98813#28022019112338#708346000012#000011#270195##0####S#NAMESO
+------------------------|      MOCK CSACT      ||  28/02/2019 - 11:23  |------------------------
+PRUEBAS CEPSA-Integrac. CIF: A 12345678
+
+BODYIM9916999-TERMINALES
+
+
+
+*************************        CEPSA         **  Porque TU vuelves   *************************         28/02/2019************************NUMERO DE OPER: 000011
+
+AUT: CEPSA
+
+AUTORIZ: 270195
+
+Tarj:***************3093************************
+
+PRDDTOLitros   P.Unid.   TotalGasoleo Extra
+
+ 00.00    0.000   0.12
+------------------------TOTAL:           0.12
+A PAGAR:         0.12
+************************IMTOTM*************************   Tus Puntos Al Dia  **                      ** ACUMULADOS:      570 ** TODOS TUS PUNTOS:    **            884.974   **1000 PTOS-DESC = 1 EUR*************************
+
+
+
+C#SBCUTMNAMESO
+
+PRUEBAS CEPSA-Integrac. CIF: A 12345678
+
+BODYIM9916999-HOOFDDORF
+
+
+
+*************************        CEPSA         **  Porque TU vuelves   *************************04-06-2018         10:27************************NUMERO DE OPER: 000012
+
+AUT: CEPSA
+
+AUTORIZ: 270195
+
+Tarj:***************3093************************
+
+PRDDTOLitros   P.Unid.   TotalGasoleo Extra
+
+ 10,00    1,000   10,00------------------------TOTAL:             10,00A PAGAR:           10,00************************IMTOTM*************************   Tus Puntos Al Dia  **                      ** ACUMULADOS:      570 ** TODOS TUS PUNTOS:    **            884.974   **1000 PTOS-DESC = 1 EUR*************************MPIEIO
+
+************************     MUCHAS GRACIAS     ************************
+
+
+
+708346000088243093#Q1##Q1##STAR#057##01509#1000#1000##LYT#1#171017#9345#209997009997003084180604102718009345#CEPSA#9997003084#999700#6#884974#1000#570##450#POS#ESTE ES MI CAMPO DE POS #123456789POS#ESTE ES MI CAMPO 2 DE POS #123456789ING#9916999#1806041025142223072282023721#190224#20180604102718
+2019-02-28	11:23:38	listen	137	[INFO]	Waiting for a new comunication
+2019-02-28	11:23:42	listen	82	[INFO]	The socket has been opened successfully
+2019-02-28	11:23:42	listen	100	[INFO]	[RX]	PH2400452PDI040099666990980000R9966699#8#18001CT09966699:PCI02:CRC0a00:TRC01:POL0000#S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000#000012#000012#000#0#978#ES2##5413330089010483=2512201084060352EMV#0549#1D852F71FF624C2C00021225000F440000000000000000000000FF#02B958004103028000008000190228DCF89D8800724E0F048224A0000000041010#AP#01#000000012#906#000000##000000012#/A000011IP
+2019-02-28	11:23:54	pt_parseheader	126	[INFO]	Header of frame	PH2400452PDI040099666990980000
+2019-02-28	11:23:54	pt_typerequest	135	[INFO]	Type of Request	R
+2019-02-28	11:23:54	pt_businessID	146	[INFO]	Business ID	9966699
+2019-02-28	11:23:54	pt_typemachine	157	[INFO]	Type of machine	8
+2019-02-28	11:23:54	pt_idterminal	168	[INFO]	ID of the Terminal	18001CT09966699:PCI02:CRC0a00:TRC01:POL0000
+2019-02-28	11:23:54	pt_tableversion	179	[INFO]	Tables version	S626.P000.s000.u003.E707.t004.c004.p004.d003.a003.F714.W271.M652.V107.N559.e011.m011.v011.x004.f559.Z003.l000.B000.n005.o001.X000.g000.r001.j000
+2019-02-28	11:23:54	pt_lastNSM	190	[INFO]	Last NSM	000012
+2019-02-28	11:23:54	pt_operationNum	203	[INFO]	Operation number	000012
+2019-02-28	11:23:54	pt_offlinetrans	216	[INFO]	Offline Transaction	000
+2019-02-28	11:23:54	pt_operationmode	233	[INFO]	Operation mode	0 - Autonomous
+2019-02-28	11:23:54	pt_currency	245	[INFO]	Currency	978 - EUR
+2019-02-28	11:23:54	pt_lenguaje	257	[INFO]	Languaje	ES - Spanish
+2019-02-28	11:23:54	pt_typecard	269	[INFO]	TypeCard	2 - EMV
+2019-02-28	11:23:54	pt_track1	275	[INFO]	Track1	
+2019-02-28	11:23:54	pt_track2	285	[INFO]	Track2	5413330089010483=2512201084060352
+2019-02-28	11:23:54	pt_extradatacard	292	[INFO]	Card info	
+2019-02-28	11:23:54	pt_chipdata	300	[INFO]	Chip Data	EMV#0549#1D852F71FF624C2C00021225000F440000000000000000000000FF#02B958004103028000008000190228DCF89D8800724E0F048224A0000000041010
+2019-02-28	11:23:54	pt_typepayment	313	[INFO]	Type of Payment	
+2019-02-28	11:23:54	pt_operationcode	332	[INFO]	Operation Code	AP - Automatic cancellation
+2019-02-28	11:23:54	pt_numberproducts	343	[INFO]	Number of products	01
+2019-02-28	11:23:54	pt_totalamount	354	[INFO]	Total Amount	000000012
+2019-02-28	11:23:54	pt_eurolpoint	365	[INFO]	Euro Litres/Point	
+2019-02-28	11:23:54	pt_giftprocode	375	[INFO]	Gift Product code	906
+2019-02-28	11:23:54	pt_unitprice	387	[INFO]	Unit Price	000000
+2019-02-28	11:23:54	pt_quantitylitres	398	[INFO]	Quantity Litres	
+2019-02-28	11:23:54	pt_amount	405	[INFO]	Amount	000000012
+2019-02-28	11:23:54	pt_discountproduct	416	[INFO]	Discount Product	
+2019-02-28	11:23:54	pt_extradatablock	422	[INFO]	Extra Data Block	/A000011
+2019-02-28	11:23:54	pt_encryptionkey	430	[INFO]	Encryption key	
+2019-02-28	11:23:54	pt_communicationtype	441	[INFO]	Commmunication Type	IP
+2019-02-28	11:23:54	pt_commissionsblock	448	[INFO]	Commissions Block	
